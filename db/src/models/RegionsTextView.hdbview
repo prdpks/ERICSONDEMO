@@ -1,0 +1,2 @@
+VIEW "RegionsTextView"
+AS select REGION, DESCRIPTION from "cc_plain"

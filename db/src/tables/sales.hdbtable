@@ -1,0 +1,7 @@
+		column table "SALES" (
+		    "PRODUCT_ID" INTEGER  unique not null COMMENT 'Product ID',
+		    "QUANTITY" INTEGER COMMENT 'Quantity Sold',
+		    "PRICE" DOUBLE COMMENT 'Price of the Product',
+		    PRIMARY KEY ("PRODUCT_ID")
+		)
+COMMENT 'Sales Details'

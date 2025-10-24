@@ -1,0 +1,7 @@
+		column table "PRODUCTS" (
+		    "PRODUCT_ID" INTEGER  unique not null COMMENT 'Product ID',
+		    "PRODUCT_NAME" NVARCHAR(512) COMMENT 'Product Name',
+		    "PRODUCT_GROUP" NVARCHAR(512) COMMENT 'Product Group',
+		    PRIMARY KEY ("PRODUCT_ID")
+		)
+COMMENT 'Product Details'

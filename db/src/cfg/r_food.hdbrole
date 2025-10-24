@@ -1,0 +1,22 @@
+{
+  "role": {
+    "name": "r_food",
+    "object_privileges": [
+      {
+        "name": "cv_sales_ap",
+        "type": "VIEW",
+        "privileges": [
+          "SELECT"
+        ]
+      }
+    ],
+    "schema_analytic_privileges": [
+      {
+        "schema_reference": "ERICSONDEMO_HDI_DB_1",
+        "privileges": [
+          "ap_food"
+        ]
+      }
+    ]
+  }
+}
